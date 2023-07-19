@@ -12,7 +12,7 @@
     width: 880px;
     height: 74px;
     padding-top: 45px;
-    margin: auto;
+    margin:0 auto;
 }
 
 .header__logo {
@@ -27,7 +27,7 @@
 }
 
 .profile {
-    margin: auto;
+    margin: 0 auto;
     padding-top: 45px;
     display: flex;
     width: 880px;
@@ -35,17 +35,14 @@
 }
 
 .profile__avatar {
-   margin-left: 0;
     border-radius: 120px;
     height: 127.5px;
 }
 
 .profile__Info {
-   
     margin: 20px;
     width: 265px;
-height: 73px;
-border: 1px;
+    height: 73px;
 }
 
 .profile__Info__text {
@@ -63,14 +60,6 @@ border: 1px;
 
 .button {
     margin-top: 35px;
-    width: 24px;
-height: 24px;
-border: 1px;
-}
-    
-.button__edit {
-    width: 24px;
-height: 24px;
 }
 
 .button1 {
@@ -80,16 +69,13 @@ height: 24px;
 .button__add {
     padding-left: 250px;
     margin: 25px;
-    width: 150px;
-    height: 50px;
 }
 
-.element {  
+.element { 
     display: flex;
     flex-wrap: wrap;
-    margin-top: 65px;
-    margin-left: 200px;
     width: 880px;
+    margin: 65px auto;
 }
    
 .element-block,
@@ -101,8 +87,7 @@ height: 24px;
     border-radius: 10px;
     background: #FFF;
     width: 282px;
-    height: 361px;
-    margin: 4px;
+    margin: 10px auto;
 }
 
 .element-block-image,
@@ -117,60 +102,35 @@ height: 24px;
     height: 282px;
 }
 
-.element-block-text {
-    margin: 75px;
-    margin-left: 31px;
-    font-size: 24px;
-    font-weight: 900;
-    line-height: 70px;
+.block,
+.block1,
+.block2,
+.block3,
+.block4,
+.block5 { 
+    display: flex;
+    margin: 25px 15px 31px 21px;
 }
 
-.element-block1-text {
-    margin: 60px;
-     margin-left: 31px;
+.block-text,
+.block1-text, 
+.block2-text,
+.block3-text,
+.block4-text,
+.block5-text {
+    margin-inline-start: 0;
     font-size: 24px;
     font-weight: 900;
-    line-height: 70px;
-} 
-
-.element-block2-text {
-    margin: 125px;
-    margin-left: 31px;
-    font-size: 24px;
-    font-weight: 900;
-    line-height: 70px;
 }
 
-.element-block3-text {
-    margin: 65px;
-    margin-left: 31px;
-    font-size: 24px;
-    font-weight: 900;
-    line-height: 70px;
-}
-
-.element-block4-text {
-    margin: 130px;
-    margin-left: 31px;
-    font-size: 24px;
-    font-weight: 900;
-    line-height: 70px;
-}
-    
-.element-block5-text {
-    margin: 55px;
-    margin-left: 31px;
-    font-size: 24px;
-    font-weight: 900;
-    line-height: 70px;
-} 
-
-.element-block-logo
-.element-block1-logo
-.element-block2-logo
-.element-block3-logo
-.element-block4-logo
-.element-block5-logo {
+.block-logo,
+.block1-logo,
+.block2-logo,
+.block3-logo,
+.block4-logo,
+.block5-logo {
+    margin: 0 auto;
+    margin-inline-end: 0;
     height: 19px;
     width: 22px;
 }
